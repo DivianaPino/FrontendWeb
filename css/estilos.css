@@ -35,6 +35,9 @@ h6 {
     padding: 60px 0;
 }
 
+.contenedor1 .titulo{
+    margin-left: 20px;
+}
 
 h1 {
     font-size: 50px;
@@ -145,7 +148,7 @@ nav {
     margin: 28px 0 0 0;
     width: 130px;
     display: inline-block;
-    background: #1FDE82;
+    background: #c728b1 ;
     text-align: center;
     color: #fff;
     padding: 12px 0;
@@ -154,7 +157,7 @@ nav {
     text-transform: uppercase;
     font-size: 14px;
     border-radius: 5px;
-    box-shadow: 0 8px 32px rgba(31, 222, 130, .46);
+    box-shadow: 0 8px 32px rgb(253, 211, 252);
 }
 
 .titulo {
@@ -190,14 +193,14 @@ nav {
 .articulo>i {
     font-size: 30px;
     color: #fff;
-    background: #1FDE82;
+    background: #c728b1;
     display: inline-block;
     width: 70px;
     height: 70px;
     text-align: center;
     padding-top: 20px;
     border-radius: 50%;
-    box-shadow: 0 8px 32px rgba(31, 222, 130, .46);
+    box-shadow: 0 8px 32px rgb(253, 211, 252);
 }
 
 .articulo>h3 {
@@ -219,7 +222,7 @@ nav {
 }
 
 .articulo>a:hover {
-    color: #1FDE82;
+    background: #c728b1 ;
     transition: color .5s;
 }
 
@@ -252,7 +255,7 @@ nav {
     margin: 28px 0 0 0;
     width: 130px;
     display: inline-block;
-    background: #1FDE82;
+    background: #c728b1 ;
     text-align: center;
     color: #fff;
     padding: 12px 0;
@@ -261,13 +264,13 @@ nav {
     text-transform: uppercase;
     font-size: 14px;
     border-radius: 5px;
-    box-shadow: 0 8px 32px rgba(31, 222, 130, .46);
+    box-shadow: 0 8px 32px rgba(222, 31, 222, 0.46);
 }
 
 /* Results */
 
 .results {
-    background: #2570ff;
+    background: #c70bb7;
     padding-top: 30px;
 }
 
@@ -277,7 +280,7 @@ nav {
 }
 
 .numbers {
-    width: 60%;
+    width: 95%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -294,7 +297,7 @@ nav {
 
 .numbers .number h4 {
     color: #fff;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 500;
     margin-bottom: 20px;
 }
@@ -356,7 +359,7 @@ nav {
 }
 
 .box-skills i {
-    color: #1FDE82;
+    color: #c728b1 ;
     font-size: 20px;
 }
 
@@ -395,7 +398,7 @@ footer {
 
 
 .partFooter a:hover {
-    color: #1FDE82;
+    color: #c728b1;
 }
 
 .partFooter img {
@@ -412,7 +415,6 @@ footer {
     height: 38px;
     line-height: 36px;
     cursor: pointer;
-    margin-top: 20px;
     text-align: center;
     transition: all ease-in-out .3s;
     margin-right: 5px;
@@ -420,8 +422,8 @@ footer {
 
 .social-media i:hover {
     color: #fff;
-    background-color: #1FDE82;
-    border-color: #1FDE82;
+    background-color: #c728b1 ;
+    border-color: #c728b1 ;
 }
 
 /* Breakpoints responsive */
